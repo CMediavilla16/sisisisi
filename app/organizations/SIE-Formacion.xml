@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ASCII"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="Mondongo">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Banshee">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Bizco">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Director">
+      <displayName>Director</displayName>
+    </role>
+    <role name="instructor">
+      <displayName>instructor</displayName>
+    </role>
+    <role name="alumno">
+      <displayName>alumno</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="SIE-Formacion">
+      <displayName>SIE-Formacion</displayName>
+    </group>
+    <group name="variablesNegocio">
+      <displayName>variablesNegocio</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>Mondongo</userName>
+      <roleName>Director</roleName>
+      <groupName>SIE-Formacion</groupName>
+    </membership>
+    <membership>
+      <userName>Banshee</userName>
+      <roleName>Director</roleName>
+      <groupName>SIE-Formacion</groupName>
+    </membership>
+    <membership>
+      <userName>Bizco</userName>
+      <roleName>Director</roleName>
+      <groupName>SIE-Formacion</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
